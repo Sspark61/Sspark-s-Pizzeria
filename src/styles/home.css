@@ -1,0 +1,50 @@
+#container {
+    display: flex;
+  }
+  
+  .banner {
+    background-image: url(../images/logo.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50vw;
+    height: 90vh;
+    margin-top: -4vh;
+    margin-left: -1.5vw;
+    animation: fadein 1s;
+  }
+  
+  .content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #fff3e0;
+    padding-top: 12vh;
+    padding-left: 8vw;
+    margin-top: 5vh;
+    height: 69vh;
+    width: 35vw;
+    gap: 50px;
+    border-left: 1px solid #fff3e0;
+    animation: fadein 1s;
+  }
+  
+  .content > h1 {
+    font-size: 45px;
+    font-weight: 1200;
+  }
+  
+  .content > p {
+    font-size: 30px;
+    font-weight: 300;
+    text-align: justify;
+  }
+  
+  @keyframes fadein{
+    0%{
+      opacity: 0;
+    }
+    100%{
+      opacity: 1;
+    }
+  }
+  
